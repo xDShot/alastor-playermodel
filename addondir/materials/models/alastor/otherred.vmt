@@ -1,0 +1,23 @@
+//
+patch
+{
+include "materials/models/alastor/alastor_shared.vmt"
+insert
+{
+$basetexture "models/alastor/otherred"
+$lightwarptexture ""
+$halflambert 1
+$detail ""
+
+Proxies
+{
+
+BoneFlexDriverProxy
+{
+boneflexdrivers "superflexer, tx, right_lid_closer"
+}
+
+}
+
+}
+}

@@ -1,0 +1,29 @@
+// these are generic shared attachments that all the survivors have
+// attachments that need precise placement are located in the maya file
+// such as all the weapon/item body attachments
+
+$attachment "lfoot" "valvebiped.bip01_l_foot" 0.00 5.00 0.00 rotate 0 0 0 RIGID
+$attachment "rfoot" "valvebiped.bip01_r_foot" 0.00 5.00 0.00 rotate 0 0 0 RIGID
+
+$attachment "muzzle_flash" "valvebiped.bip01_l_hand" 0.00 0.00 0.00 rotate 0 0 0 RIGID
+$attachment "survivor_neck" "ValveBiped.Bip01_Neck1" 0 0 0
+
+// the heads intended "forward" direction, independent of actual eye-nose-forward direction
+$attachment "forward" "ValveBiped.forward" 0 0 0
+
+$attachment "bleedout" "ValveBiped.Bip01_Pelvis" 9.50 10.00 5.00 rotate 0 0 0
+
+// point for local illumination for making survivors easier to see
+$attachment "survivor_light" "ValveBiped.Bip01_Spine2" 6.00 24.00 0.00 rotate 0 0 0
+
+// animated attachments for healing bandage-particles, and anchor attachments for particle inheritance
+$attachment "legL_B" "ValveBiped.attachment_bandage_legL" 0 0 0 rotate -90 0 -90 
+$attachment "armL_B" "ValveBiped.attachment_bandage_armL" 0 0 0 rotate -90 0 -90 
+$attachment "armL_T" "ValveBiped.attachment_armL_T" 0 0 0 rotate -90 0 -90 
+$attachment "armR_T" "ValveBiped.attachment_armR_T" 0 0 0 rotate -90 0 -90 
+$attachment "armL" "ValveBiped.Bip01_L_Forearm" 0 0 0 rigid
+$attachment "legL" "ValveBiped.Bip01_L_Calf" 0 0 0 rigid
+$attachment "thighL" "ValveBiped.Bip01_L_Thigh" 0 0 0 rigid
+
+$attachment "spine" "ValveBiped.Bip01_Spine" 0.00 -0.00 -0.00 rotate -90 -90 0
+//$attachment "melee" "ValveBiped.Bip01_Spine4" 3.07 -5.92 4.20 rotate -60 180 174z

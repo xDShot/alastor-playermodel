@@ -1,0 +1,10 @@
+//
+patch
+{
+include "materials/models/alastor/alastor_shared.vmt"
+insert
+{
+$color2 "[0.9210491340567034 0.35973688778615004 0.31052291805196863]"
+$translucent .5
+}
+}

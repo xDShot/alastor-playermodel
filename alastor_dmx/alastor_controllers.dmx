@@ -1,0 +1,298 @@
+<!-- dmx encoding keyvalues2 1 format model 1 -->
+"DmElement"
+{
+	"id" "elementid" "b56f09b3-2ea3-3708-b22c-74c0daf1fd7c"
+	"name" "string" "flex_alastor_head"
+	"combinationOperator" "DmeCombinationOperator"
+	{
+		"id" "elementid" "5f466096-97d4-3e7b-95eb-26be2dacb5cc"
+		"name" "string" "combinationOperator"
+		"controls" "element_array" 
+		[
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "98e014c8-a007-3190-bd25-0f823b90b597"
+				"name" "string" "Converge"
+				"rawControlNames" "string_array" ["Converge"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "96af6d29-51cd-3eff-8095-68961928d1eb"
+				"name" "string" "Separate"
+				"rawControlNames" "string_array" ["Separate"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "d7012b33-7d3e-3849-b558-d4352a527434"
+				"name" "string" "EyesL"
+				"rawControlNames" "string_array" ["EyesL"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "531aba0d-975e-309a-b99c-86a8065eb259"
+				"name" "string" "EyesR"
+				"rawControlNames" "string_array" ["EyesR"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "ca905a31-2c84-3161-b221-31594545493c"
+				"name" "string" "EyesU"
+				"rawControlNames" "string_array" ["EyesU"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "2eae2c07-38f6-360a-a29c-59ab82cb5e0a"
+				"name" "string" "EyesD"
+				"rawControlNames" "string_array" ["EyesD"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "f2cc71fa-af83-3762-9850-d894d1729c11"
+				"name" "string" "EyesBig"
+				"rawControlNames" "string_array" ["EyesBig"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "362c83fc-e7af-31f5-8524-8963f6819f26"
+				"name" "string" "EyesSmall"
+				"rawControlNames" "string_array" ["EyesSmall"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "e9a6a408-0351-3c4d-b183-02c51bec8ffa"
+				"name" "string" "Bored"
+				"rawControlNames" "string_array" ["Bored"]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "49aafdce-6a7c-32d3-bd70-c00729f948c8"
+				"name" "string" "EyelidClosed"
+				"rawControlNames" "string_array" ["EyelidClosed"]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "7538cdab-099b-4ea4-83ea-9a9a6cf7b97d"
+				"name" "string" "WideEyed"
+				"rawControlNames" "string_array" ["WideEyed"]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "ae41378a-3826-3944-a2bc-af2b49582af7"
+				"name" "string" "Smug"
+				"rawControlNames" "string_array" ["Smug"]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "813ba2fb-4690-3641-8e68-ba820cbf6cb2"
+				"name" "string" "Smirk"
+				"rawControlNames" "string_array" ["Smirk"]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "def7a856-edc8-3ba8-a7e0-093bbbef8e4c"
+				"name" "string" "ClosedMouth"
+				"rawControlNames" "string_array" ["ClosedMouth"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "4969d3dc-5145-3598-89c8-372acaa64186"
+				"name" "string" "O"
+				"rawControlNames" "string_array" ["O"]
+				"stereo" "bool" "1"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "1ec30fcf-cbfb-31b2-8f8c-143d01c570be"
+				"name" "string" "TeethD"
+				"rawControlNames" "string_array" ["TeethD"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "347c0ca0-f75c-3ef9-b06d-3be08b9f1b6a"
+				"name" "string" "TeethU"
+				"rawControlNames" "string_array" ["TeethU"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "521303d4-938b-3ce3-8c0c-96ff1a8e5a06"
+				"name" "string" "Open"
+				"rawControlNames" "string_array" ["Open"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			},
+			"DmeCombinationInputControl"
+			{
+				"id" "elementid" "b4b218fc-a069-31a1-a970-dfd702053dea"
+				"name" "string" "NothingUsual"
+				"rawControlNames" "string_array" ["NothingUsual"]
+				"stereo" "bool" "0"
+				"eyelid" "bool" "0"
+				"flexMax" "float" "1.0"
+				"flexMin" "float" "0.0"
+				"wrinkleScales" "float_array" ["0.0"]
+			}
+		]
+		"controlValues" "vector3_array" ["0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5"]
+		"controlValuesLagged" "vector3_array" ["0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5", "0.0 0.0 0.5"]
+		"usesLaggedValues" "bool" "0"
+		"dominators" "element_array"
+		[
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "18d7851f-d098-4980-a9f2-5445c9a598f0"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"Smug"
+				]
+				"suppressed" "string_array" 
+				[
+					"Bored"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "91ca4c8d-9931-4cfa-86b1-9aa000f061d4"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"WideEyed"
+				]
+				"suppressed" "string_array" 
+				[
+					"Bored"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "3e1dd747-40ce-43e2-88a5-9be22105a64b"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"ClosedMouth"
+				]
+				"suppressed" "string_array" 
+				[
+					"TeethD", "TeethU"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "a1725341-afaa-4879-a7d5-b21420128abb"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"EyelidClosed"
+				]
+				"suppressed" "string_array" 
+				[
+					"Bored", "Smug"
+				]
+			},
+			"DmeCombinationDominationRule"
+			{
+				"id" "elementid" "75b2c2d4-5650-412d-aeeb-c63fd4042003"
+				"name" "string" "rule"
+				"dominators" "string_array" 
+				[
+					"ClosedMouth",
+					"Open"
+				]
+				"suppressed" "string_array" 
+				[
+					"TeethD", "TeethU"
+				]
+			}
+		]
+		"targets" "element_array" [ ]
+	}
+}
+
+

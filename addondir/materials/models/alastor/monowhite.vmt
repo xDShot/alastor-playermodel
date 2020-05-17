@@ -1,0 +1,11 @@
+//
+patch
+{
+include "materials/models/alastor/alastor_shared.vmt"
+insert
+{
+$basetexture "models/alastor/monowhite"
+$translucent .5
+$alpha .5
+}
+}

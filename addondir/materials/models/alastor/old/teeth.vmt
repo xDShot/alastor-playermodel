@@ -1,0 +1,12 @@
+//
+patch
+{
+include "materials/models/alastor/alastor_shared.vmt"
+insert
+{
+$color2 "[1.0 0.9495883048438437 0.4285922059793952]"
+$halflambert 1
+$lightwarptexture ""
+$selfillum 1
+}
+}

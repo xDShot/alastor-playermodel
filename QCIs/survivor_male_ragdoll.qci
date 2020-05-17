@@ -1,0 +1,177 @@
+$surfaceprop "flesh"
+
+$collisionjoints "DMX\RAGDOLL.smd" {
+
+	$mass 100.0
+	$inertia 10.00
+	$damping 0.05
+	$rotdamping 0.01
+	$rootbone "valvebiped.bip01_pelvis"
+	$jointrotdamping "valvebiped.bip01_pelvis" 3.00
+
+
+//$jointskip "ValveBiped.bip01_l_hand"
+//$jointskip "ValveBiped.bip01_r_hand"
+//$jointskip "ValveBiped.bip01_l_foot"
+//$jointskip "ValveBiped.bip01_r_foot"
+
+	$jointmassbias "valvebiped.Bip01_L_Clavicle" 4.00
+	$jointrotdamping "valvebiped.Bip01_L_Clavicle" 6.00
+	$jointconstrain "valvebiped.Bip01_L_Clavicle" x limit -15.00 15.00 0.00
+	$jointconstrain "valvebiped.Bip01_L_Clavicle" y limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.Bip01_L_Clavicle" z limit -0.00 45.00 0.00
+
+	$jointmassbias "valvebiped.Bip01_R_Clavicle" 4.00
+	$jointrotdamping "valvebiped.Bip01_R_Clavicle" 6.00
+	$jointconstrain "valvebiped.Bip01_R_Clavicle" x limit -15.00 15.00 0.00
+	$jointconstrain "valvebiped.Bip01_R_Clavicle" y limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.Bip01_R_Clavicle" z limit -0.00 45.00 0.00
+
+
+
+	$jointmassbias "valvebiped.bip01_head1" 4.00
+	$jointrotdamping "valvebiped.bip01_head1" 3.00
+	$jointconstrain "valvebiped.bip01_head1" x limit -50.00 50.00 0.00
+	$jointconstrain "valvebiped.bip01_head1" y limit -20.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_head1" z limit -26.00 30.00 0.00
+
+	$jointmassbias "valvebiped.bip01_spine2" 9.00
+	$jointrotdamping "valvebiped.bip01_spine2" 5.00
+	$jointconstrain "valvebiped.bip01_spine2" x limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_spine2" y limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_spine2" z limit -20.00 20.00 0.00
+
+	$jointmassbias "valvebiped.bip01_spine1" 8.0
+	$jointrotdamping "valvebiped.bip01_spine1" 5.00
+	$jointconstrain "valvebiped.bip01_spine1" x limit -10.00 10.00 0.00
+	$jointconstrain "valvebiped.bip01_spine1" y limit -16.00 16.00 0.00
+	$jointconstrain "valvebiped.bip01_spine1" z limit -20.00 30.00 0.00
+
+	$jointmassbias "valvebiped.bip01_r_upperarm" 5.00
+	$jointrotdamping "valvebiped.bip01_r_upperarm" 2.00
+	$jointconstrain "valvebiped.bip01_r_upperarm" x limit -15.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_r_upperarm" y limit -40.00 32.00 0.00
+	$jointconstrain "valvebiped.bip01_r_upperarm" z limit -80.00 25.00 0.00
+
+	$jointmassbias "valvebiped.bip01_l_upperarm" 5.00
+	$jointrotdamping "valvebiped.bip01_l_upperarm" 2.00
+	$jointconstrain "valvebiped.bip01_l_upperarm" x limit -15.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_l_upperarm" y limit -40.00 32.00 0.00
+	$jointconstrain "valvebiped.bip01_l_upperarm" z limit -80.00 25.00 0.00
+
+	$jointmassbias "valvebiped.bip01_r_forearm" 4.00
+	$jointrotdamping "valvebiped.bip01_r_forearm" 4.00
+	$jointconstrain "valvebiped.bip01_r_forearm" x limit -40.00 15.00 0.00
+	$jointconstrain "valvebiped.bip01_r_forearm" y limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_r_forearm" z limit -120.00 10.00 0.00
+
+	$jointmassbias "valvebiped.bip01_l_forearm" 4.00
+	$jointrotdamping "valvebiped.bip01_l_forearm" 4.00
+	$jointconstrain "valvebiped.bip01_l_forearm" x limit -40.00 15.00 0.00
+	$jointconstrain "valvebiped.bip01_l_forearm" y limit 0.00 0.00 0.00
+	$jointconstrain "valvebiped.bip01_l_forearm" z limit -120.00 10.00 0.00
+
+	$jointmassbias "valvebiped.bip01_r_hand" 1.00
+	$jointrotdamping "valvebiped.bip01_r_hand" 1.00
+	$jointconstrain "valvebiped.bip01_r_hand" x limit -25.00 25.00 0.00
+	$jointconstrain "valvebiped.bip01_r_hand" y limit -35.00 35.00 0.00
+	$jointconstrain "valvebiped.bip01_r_hand" z limit -50.00 50.00 0.00
+
+	$jointmassbias "valvebiped.bip01_l_hand" 1.00
+	$jointrotdamping "valvebiped.bip01_l_hand" 1.00
+	$jointconstrain "valvebiped.bip01_l_hand" x limit -25.00 25.00 0.00
+	$jointconstrain "valvebiped.bip01_l_hand" y limit -35.00 35.00 0.00
+	$jointconstrain "valvebiped.bip01_l_hand" z limit -50.00 50.00 0.00
+
+	$jointmassbias "valvebiped.bip01_r_thigh" 7.00
+	$jointrotdamping "valvebiped.bip01_r_thigh" 7.00
+	$jointconstrain "valvebiped.bip01_r_thigh" x limit -25.00 25.00 0.00
+	$jointconstrain "valvebiped.bip01_r_thigh" y limit -10.00 15.00 0.00
+	$jointconstrain "valvebiped.bip01_r_thigh" z limit -55.00 25.00 0.00
+
+	$jointmassbias "valvebiped.bip01_l_thigh" 7.00
+	$jointrotdamping "valvebiped.bip01_l_thigh" 7.00
+	$jointconstrain "valvebiped.bip01_l_thigh" x limit -25.00 25.00 0.00
+	$jointconstrain "valvebiped.bip01_l_thigh" y limit -10.00 15.00 0.00
+	$jointconstrain "valvebiped.bip01_l_thigh" z limit -55.00 25.00 0.00
+
+	$jointmassbias "valvebiped.bip01_r_calf" 4.00
+	$jointrotdamping "valvebiped.bip01_r_calf" 5.00
+	$jointconstrain "valvebiped.bip01_r_calf" x limit -10.00 25.00 0.00
+	$jointconstrain "valvebiped.bip01_r_calf" y limit -5.00 5.00 0.00
+	$jointconstrain "valvebiped.bip01_r_calf" z limit -10.00 115.00 0.00
+
+	$jointmassbias "valvebiped.bip01_l_calf" 4.00
+	$jointrotdamping "valvebiped.bip01_l_calf" 5.00
+	$jointconstrain "valvebiped.bip01_l_calf" x limit -10.00 25.00 0.00
+	$jointconstrain "valvebiped.bip01_l_calf" y limit -5.00 5.00 0.00
+	$jointconstrain "valvebiped.bip01_l_calf" z limit -10.00 115.00 0.00
+
+	$jointmassbias "valvebiped.bip01_r_foot" 1.00
+	$jointrotdamping "valvebiped.bip01_r_foot" 2.00
+	$jointconstrain "valvebiped.bip01_r_foot" x limit -20.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_r_foot" y limit -30.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_r_foot" z limit -30.00 50.00 0.00
+
+	$jointmassbias "valvebiped.bip01_l_foot" 1.00
+	$jointrotdamping "valvebiped.bip01_l_foot" 2.00
+	$jointconstrain "valvebiped.bip01_l_foot" x limit -20.00 30.00 0.00
+	$jointconstrain "valvebiped.bip01_l_foot" y limit -30.00 20.00 0.00
+	$jointconstrain "valvebiped.bip01_l_foot" z limit -30.00 50.00 0.00
+
+
+
+	$jointcollide valvebiped.bip01_head1 valvebiped.Bip01_L_Clavicle
+	$jointcollide valvebiped.bip01_head1 valvebiped.Bip01_R_Clavicle
+	$jointcollide valvebiped.bip01_head1 valvebiped.bip01_l_hand
+	$jointcollide valvebiped.bip01_head1 valvebiped.bip01_r_hand
+
+	$jointcollide valvebiped.bip01_l_hand valvebiped.bip01_pelvis
+	$jointcollide valvebiped.bip01_l_hand valvebiped.bip01_l_thigh
+	$jointcollide valvebiped.bip01_l_hand valvebiped.bip01_r_thigh
+
+	$jointcollide valvebiped.bip01_r_hand valvebiped.bip01_pelvis
+	$jointcollide valvebiped.bip01_r_hand valvebiped.bip01_l_thigh
+	$jointcollide valvebiped.bip01_r_hand valvebiped.bip01_r_thigh
+
+	$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_r_upperarm
+	$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_r_forearm
+	
+	//$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_l_thigh
+	//$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_r_thigh
+	//$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_l_calf
+	//$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_r_calf
+
+	//$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_pelvis
+	$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_spine1
+	//$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_spine2
+	$jointcollide valvebiped.bip01_l_forearm valvebiped.bip01_head1
+
+	//$jointcollide valvebiped.bip01_r_forearm valvebiped.bip01_l_thigh
+	//$jointcollide valvebiped.bip01_r_forearm valvebiped.bip01_r_thigh
+	//$jointcollide valvebiped.bip01_r_forearm valvebiped.bip01_l_calf
+	//$jointcollide valvebiped.bip01_r_forearm valvebiped.bip01_r_calf
+
+	//$jointcollide valvebiped.bip01_r_forearm valvebiped.bip01_pelvis
+	$jointcollide valvebiped.bip01_r_forearm valvebiped.bip01_spine1
+	//$jointcollide valvebiped.bip01_r_forearm valvebiped.bip01_spine2
+	$jointcollide valvebiped.bip01_r_forearm valvebiped.bip01_head1
+
+	$jointcollide valvebiped.bip01_spine2 valvebiped.bip01_r_upperarm
+	$jointcollide valvebiped.bip01_spine2 valvebiped.bip01_l_upperarm
+
+	$jointcollide valvebiped.bip01_spine1 valvebiped.bip01_l_hand
+	$jointcollide valvebiped.bip01_spine1 valvebiped.bip01_r_hand
+	$jointcollide valvebiped.bip01_spine2 valvebiped.bip01_l_hand
+	$jointcollide valvebiped.bip01_spine2 valvebiped.bip01_r_hand
+
+	$jointcollide valvebiped.bip01_l_thigh valvebiped.bip01_r_thigh
+	$jointcollide valvebiped.bip01_l_calf valvebiped.bip01_r_calf
+	$jointcollide valvebiped.bip01_l_calf valvebiped.bip01_r_foot
+
+	$jointcollide valvebiped.bip01_r_calf valvebiped.bip01_l_foot
+	$jointcollide valvebiped.bip01_r_foot valvebiped.bip01_l_foot
+
+}
+$sequence ragdoll 		"dmx\RAGDOLL" 		FPS 30 		activity ACT_DIERAGDOLL 1
+$popd

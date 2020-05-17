@@ -1,0 +1,88 @@
+//
+flexcontroller eyelid right_lid_raiser left_lid_raiser 
+flexcontroller eyelid right_lid_tightener left_lid_tightener
+flexcontroller eyelid right_lid_droop left_lid_droop
+flexcontroller eyelid right_lid_closer left_lid_closer
+flexcontroller eyelid half_closed
+flexcontroller eyelid blink
+flexcontroller brow right_inner_raiser left_inner_raiser
+flexcontroller brow right_outer_raiser left_outer_raiser 
+flexcontroller brow right_lowerer left_lowerer
+flexcontroller nose right_cheek_raiser left_cheek_raiser
+flexcontroller nose right_wrinkler left_wrinkler dilator
+flexcontroller mouth right_upper_raiser left_upper_raiser 
+flexcontroller mouth right_corner_puller left_corner_puller
+flexcontroller mouth right_corner_depressor left_corner_depressor
+flexcontroller mouth chin_raiser
+flexcontroller phoneme right_part left_part 
+flexcontroller phoneme right_puckerer left_puckerer 
+flexcontroller phoneme range 0 2 right_funneler left_funneler 
+flexcontroller phoneme right_stretcher left_stretcher
+flexcontroller phoneme bite presser tightener jaw_clencher
+flexcontroller phoneme range 0 2.0 jaw_drop
+flexcontroller phoneme right_mouth_drop left_mouth_drop
+
+flexcontroller mouth right_cheek_puffer left_cheek_puffer
+flexcontroller mouth range -1 1 mouth_sideways
+flexcontroller mouth range -1 1 jaw_sideways
+
+flexcontroller mouth lower_lip
+
+localvar _closedL
+localvar _closedR
+localvar _lidL
+localvar _lidR
+localvar _mouthclose
+localvar _mouthopen
+localvar _teethup
+localvar _teetdown
+localvar _teetapart
+localvar _puckers
+
+flexcontroller eyes range -45 45 "eyes_updown"
+flexcontroller eyes range -45 45 "eyes_rightleft"
+
+//%EyesL = max( 0, ( (eyes_rightleft/45)*(-1) )) 
+//%EyesR = max( 0, (eyes_rightleft/45) )
+//%EyesU = max( 0, ( (eyes_updown/45)*(-1) )) 
+//%EyesD = max( 0, (eyes_updown/45) )
+
+%_closedL = ( left_lid_closer + blink * (1 - left_lid_closer) )
+%_closedR = ( right_lid_closer + blink * (1 - right_lid_closer) )
+
+%_lidL = left_lid_raiser - ( left_lid_droop + half_closed * ( 1 - left_lid_droop ) )
+%_lidR = right_lid_raiser - ( right_lid_droop + half_closed * ( 1 - right_lid_droop ) )
+
+%EyelidClosedL = %_closedL
+%EyelidClosedR = %_closedR
+
+%BoredL = max( 0, %_lidL * (-1) ) * (1-%_closedL) * (1-left_inner_raiser)
+%BoredR = max( 0, %_lidR * (-1) ) * (1-%_closedR) * (1-right_inner_raiser)
+
+%WideEyedL = max( 0, %_lidL ) * (1-%_closedL)
+%WideEyedR = max( 0, %_lidR ) * (1-%_closedR)
+
+%SmugL = left_inner_raiser * max( 0, %_lidL  * (-1) ) * (1-%_closedL)
+%SmugR = right_inner_raiser * max( 0, %_lidR  * (-1) ) * (1-%_closedR)
+
+%SmirkL = left_corner_puller * ( 1 - left_corner_depressor )
+%SmirkR = right_corner_puller * ( 1 - right_corner_depressor )
+
+//%EyesSmall = ( left_inner_raiser * left_outer_raiser * 0.5 ) + ( right_inner_raiser * right_outer_raiser * 0.5 )
+//%EyesBig = ( right_lid_tightener * 0.5 ) + ( left_lid_tightener * 0.5 )
+
+%_mouthclose = max( jaw_clencher, chin_raiser )
+%_mouthopen = jaw_drop * 0.5
+%_teetapart = max( (right_part+left_part)*0.5 * ( 1 - %_mouthclose ), (right_mouth_drop+left_mouth_drop)*0.5 * %_mouthopen )
+%_puckers = max( left_puckerer , right_puckerer )
+%_teethup = max( (right_upper_raiser+left_upper_raiser)*0.5 , max ( (right_funneler+left_funneler)*0.25, %_teetapart ) ) * ( 1 - %_puckers * 0.8 ) * ( 1 - %_mouthclose )
+%_teetdown = max( lower_lip, %_teetapart ) - ( 0.622449 * %_mouthclose )
+
+%ClosedMouth = %_mouthclose
+%Open = %_mouthopen
+
+%OL = left_puckerer * ( 1-%_mouthclose ) * 0.2
+%OR = right_puckerer * ( 1-%_mouthclose ) * 0.2
+
+%TeethU = %_teethup
+%TeethD = %_teetdown

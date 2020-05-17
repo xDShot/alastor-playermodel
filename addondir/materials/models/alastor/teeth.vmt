@@ -1,0 +1,18 @@
+//
+patch
+{
+include "materials/models/alastor/alastor_shared.vmt"
+insert
+{
+$basetexture "models/alastor/teeth"
+$halflambert 1
+$lightwarptexture "models/alastor/glow_lightwark"
+$detail ""
+/*$emissiveblendenabled 1
+$emissiveblendtexture "dev/null"
+$emissiveblendbasetexture "models/alastor/teeth"
+$emissiveblendflowtexture "dev/null"
+$emissiveblendstrength 1
+$emissiveblendscrollvector "[ 0 0 ]"*/
+}
+}

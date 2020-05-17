@@ -1,0 +1,10 @@
+//
+patch
+{
+include "materials/models/alastor/alastor_shared.vmt"
+insert
+{
+$color2 "[0.7214322849984416 0.135608064434504 0.20265177887872024]"
+$phongtint "[0.7214322849984416 0.135608064434504 0.20265177887872024]"
+}
+}

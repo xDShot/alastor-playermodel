@@ -1,0 +1,25 @@
+//
+flexfile "alastor_dmx/alastor_face.vta" {
+	defaultflex frame 0
+	flex "Converge" frame 14
+	flex "Separate" frame 15
+	flex "EyesL" frame 16
+	flex "EyesR" frame 17
+	flex "EyesU" frame 18
+	flex "EyesD" frame 19
+	flex "EyesBig" frame 20
+	flex "EyesSmall" frame 21
+	flexpair "Bored" 1 frame 1
+	//flex "EyelidClosedLdsfsdf" frame 2
+	//flex "EyelidClosedRfdsfsdf" frame 3
+	flexpair "WideEyed" 1 frame 4
+	flexpair "Smug" 1 frame 5
+	flexpair "Smirk" 1 frame 6
+	flex "ClosedMouth" frame 7
+	flexpair "O" 1 frame 8
+	flex "TeethD" frame 9
+	flex "TeethU" frame 10
+	flex "Open" frame 11
+	//flex "NothingUsual" frame 12
+	flexpair "EyelidClosed" 1 frame 13
+}

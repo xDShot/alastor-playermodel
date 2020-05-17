@@ -1,0 +1,19 @@
+//
+EyeRefract
+{
+$Iris "models/alastor/iris"	  
+$AmbientOcclTexture "models/alastor/otherred"
+$basetexture "models/alastor/otherred"
+$lightwarptexture "models/alastor/eyewarp"
+$halflambert "1"
+$Envmap "env_cubemap"
+$CorneaTexture "dev/flat_normal"
+$EyeballRadius "2.85"
+$AmbientOcclColor "[.25 0 0]"
+$Dilation ".5"
+$ParallaxStrength "0"
+$CorneaBumpStrength "0"
+$RaytraceSphere "0"
+$SphereTexkillCombo "0" 
+$Glossiness "0"
+}
