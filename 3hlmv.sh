@@ -7,4 +7,4 @@ export GAMEDIR="/evo/SteamLibrary/steamapps/common/Left 4 Dead 2"
 export HLMV=$GAMEDIR/bin/hlmv.exe
 export VPROJECT=$GAMEDIR/alastor
 
-$WINEBIN "$HLMV" -game $VPROJECT $@
+$WINEBIN "$HLMV" -game "$VPROJECT" $@

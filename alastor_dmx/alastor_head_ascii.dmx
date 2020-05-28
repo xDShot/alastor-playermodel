@@ -468,6 +468,7 @@
 		"element" "59ca7989-e38b-325b-a2bd-156c0db63d50",
 		"element" "3242975d-240b-3a76-a4c6-969c866946ed",
 		"element" "720d2762-2c29-3235-b8a6-c39ca93cd5e3",
+		"element" "a3a60c10-ff77-339f-bcda-30ad448924a9",
 		"element" "8bbd59f4-4ed9-37da-b93e-7edfd221a866"
 	]
 	"baseStates" "element_array" 
@@ -1180,6 +1181,13 @@
 				},
 				"DmeTransform"
 				{
+					"id" "elementid" "39951b57-a625-3e15-bd0d-c9c877e0961c"
+					"name" "string" "superflexer"
+					"position" "vector3" "0 0 0"
+					"orientation" "quaternion" "0.7071068287 0 0 0.7071068287"
+				},
+				"DmeTransform"
+				{
 					"id" "elementid" "8dd83c21-e92c-3205-a6b6-469f806d3b56"
 					"name" "string" "Alastor_Headv2"
 					"position" "vector3" "-0.0000000141 -7.6386823654 70.727142334"
@@ -1298,6 +1306,7 @@
 		"element" "f291424d-d79c-3af6-b8c2-5f1ad586db1e",
 		"element" "63b178f9-94d4-33e4-881f-0b14545d0a10",
 		"element" "af5f66a3-2f24-3d4c-9468-212452c3d96b",
+		"element" "a3a60c10-ff77-339f-bcda-30ad448924a9",
 		"element" "8bbd59f4-4ed9-37da-b93e-7edfd221a866"
 	]
 }
@@ -3089,6 +3098,23 @@
 		"name" "string" "molotov"
 		"position" "vector3" "2.8104171753 2.1858363152 -3.2445538044"
 		"orientation" "quaternion" "0.0695821568 0.0331951641 0.1092251316 0.9910228252"
+	}
+	
+	"children" "element_array" 
+	[
+	]
+}
+
+"DmeJoint"
+{
+	"id" "elementid" "a3a60c10-ff77-339f-bcda-30ad448924a9"
+	"name" "string" "superflexer"
+	"transform" "DmeTransform"
+	{
+		"id" "elementid" "1d76f062-e1f3-368a-a5b6-51f4fd888a93"
+		"name" "string" "superflexer"
+		"position" "vector3" "0 0 0"
+		"orientation" "quaternion" "0.7071068287 0 0 0.7071068287"
 	}
 	
 	"children" "element_array" 
