@@ -2,10 +2,10 @@
 //$declaresequence ragdoll
 $declaresequence Idle_Standing_Align
 
-$sequence Idlenoise 	   "smd/NamVet_Idle_Standing_01" fixuploop -15 15 loop weightlist SOLITTLENOISE subtract Idlenoise 0 iklock lfoot 1 0 iklock rfoot 1 0 delta hidden
+$sequence Idlenoise "alastor_dmx/gmod_breathe.smd" FPS 30 realtime loop subtract Idlenoise 0 iklock lfoot 1 0 iklock rfoot 1 0 delta hidden
 $sequence InjuredIdlenoise "smd/NamVet_Idle_Standing_01" fixuploop -15 15 loop weightlist SOLITTLENOISE subtract InjuredIdlenoise 0 iklock lfoot 1 0 iklock rfoot 1 0 delta hidden
-$sequence CalmIdlenoise    "smd/NamVet_Idle_Standing_01" fixuploop -15 15 loop weightlist SOLITTLENOISE subtract CalmIdlenoise 0 iklock lfoot 1 0 iklock rfoot 1 0 delta hidden x y z
-$sequence CalmIdlenoisePistol  "smd/NamVet_Idle_Standing_01" fixuploop -15 15 loop weightlist SOLITTLENOISE subtract CalmIdlenoisePistol 0 iklock lfoot 1 0 iklock rfoot 1 0 delta hidden x y z
+$sequence CalmIdlenoise "alastor_dmx/Idle02.smd" FPS 30 realtime loop subtract CalmIdlenoise 0 iklock lfoot 1 0 iklock rfoot 1 0 delta hidden x y z addlayer Idlenoise
+$sequence CalmIdlenoisePistol "alastor_dmx/Idle02.smd" FPS 30 realtime loop subtract CalmIdlenoisePistol 0 iklock lfoot 1 0 iklock rfoot 1 0 delta hidden x y z addlayer Idlenoise
 
 $declaresequence NamVet_AimMatrix_Pistol_Standing_layer
 $declaresequence NamVet_AimMatrix_Pistol_Standing_arms
