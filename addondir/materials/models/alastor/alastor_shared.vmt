@@ -2,20 +2,19 @@
 VertexLitGeneric
 {
 $model 1
-$nodecal 1
-$bumpmap "dev/flat_normal"
-$halflambert 1
+//$bumpmap "dev/flat_normal"
+//$halflambert 1
 $phong 1
 $phongexponenttexture "models/alastor/exponent" //green, full phond diffuse tint
 $phongalbedotint 1
 $phongboost 1
 $phongfresnelranges "[.3 1 8]"
 $lightwarptexture "models/alastor/alastor_lightwarp"
-$$diffuseexp 1.5
+//$$diffuseexp 1.5
 
-$$rimlight 1
-$rimlightexponent 2
-$rimlightboost .2
+//$$rimlight 1
+//$rimlightexponent 2
+//$rimlightboost .2
 
 	"$detail" "models\survivors\survivor_it.vtf"
 	"$detailscale" "3"

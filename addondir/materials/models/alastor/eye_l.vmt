@@ -16,4 +16,5 @@ $CorneaBumpStrength "0"
 $RaytraceSphere "0"
 $SphereTexkillCombo "0" 
 $Glossiness "0"
+$nodecal "1"
 }

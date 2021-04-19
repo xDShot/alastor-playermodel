@@ -8,6 +8,7 @@ $basetexture "models/alastor/teeth"
 $halflambert 1
 $lightwarptexture "models/alastor/glow_lightwark"
 $detail ""
+$nodecal 1
 /*$emissiveblendenabled 1
 $emissiveblendtexture "dev/null"
 $emissiveblendbasetexture "models/alastor/teeth"
